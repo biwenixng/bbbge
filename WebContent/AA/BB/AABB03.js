@@ -3,6 +3,6 @@ $(document).ready(function() {
         id: "region1"
     });
     var validator2 = IPLAT.Validator({
-        id: "region2"
+        id: "region3"
     });
 });
