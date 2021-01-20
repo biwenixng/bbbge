@@ -1,0 +1,290 @@
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - start
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - meta=com.baosight.iplat4j.core.ei.EiColumn@644baf4a[name=form_type,type=C,descName=类型,regex=<null>,formatter=<null>,editor=text,minLength=0,maxLength=0,fieldLength=0,scaleLength=0,primaryKey=false,width=0,height=0,align=left,displayType=text,dateFormat=yyyy-mm-dd,validateType=text,validateErrorPrompt=<null>,defaultValue=,nullable=true,visible=true,readonly=false,labelProperty=<null>,valueProperty=<null>,sourceName=<null>,blockName=<null>,attr=<null>]
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - end
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - start
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - meta=com.baosight.iplat4j.core.ei.EiColumn@2a265ea9[name=form_type_desc,type=C,descName=页面类型描述,regex=<null>,formatter=<null>,editor=text,minLength=0,maxLength=0,fieldLength=0,scaleLength=0,primaryKey=false,width=0,height=0,align=left,displayType=text,dateFormat=yyyy-mm-dd,validateType=text,validateErrorPrompt=<null>,defaultValue=,nullable=true,visible=true,readonly=false,labelProperty=<null>,valueProperty=<null>,sourceName=<null>,blockName=<null>,attr=<null>]
+2021-01-11 15:19:08 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - end
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter - Setting default value: false
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter -     No conversion required, value is already a Boolean
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter -     Converted to Byte value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter - Setting default value:  
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter -     No conversion required, value is already a Character
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter -     Converted to Double value '0.0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter -     Converted to Float value '0.0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter -     No conversion required, value is already a Integer
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter -     Converted to Long value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter -     Converted to Short value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigDecimalConverter - Setting default value: 0.0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigDecimalConverter - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigDecimalConverter -     No conversion required, value is already a BigDecimal
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigIntegerConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigIntegerConverter - Converting 'BigInteger' value '0' to type 'BigInteger'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BigIntegerConverter -     No conversion required, value is already a BigInteger
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter - Setting default value: false
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.BooleanConverter -     No conversion required, value is already a Boolean
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ByteConverter -     Converted to Byte value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter - Setting default value:  
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.CharacterConverter -     No conversion required, value is already a Character
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.DoubleConverter -     Converted to Double value '0.0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.FloatConverter -     Converted to Float value '0.0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.IntegerConverter -     No conversion required, value is already a Integer
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.LongConverter -     Converted to Long value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter - Setting default value: 0
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ShortConverter -     Converted to Short value '0'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.StringConverter - Setting default value: 
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.StringConverter - Converting 'String' value '' to type 'String'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Z@413d1baf
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'boolean[]' value '[Z@413d1baf' to type 'boolean[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a boolean[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [B@16eb3ea3
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'byte[]' value '[B@16eb3ea3' to type 'byte[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a byte[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [C@273444fe
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'char[]' value '[C@273444fe' to type 'char[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a char[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [D@33bc72d1
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'double[]' value '[D@33bc72d1' to type 'double[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a double[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [F@1a75e76a
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'float[]' value '[F@1a75e76a' to type 'float[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a float[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [I@5524cca1
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'int[]' value '[I@5524cca1' to type 'int[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a int[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [J@5032714f
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'long[]' value '[J@5032714f' to type 'long[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a long[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [S@48bb62
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'short[]' value '[S@48bb62' to type 'short[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a short[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.math.BigDecimal;@353352b6
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@353352b6' to type 'BigDecimal[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a BigDecimal[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.math.BigInteger;@57a78e3
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@57a78e3' to type 'BigInteger[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a BigInteger[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Boolean;@6fa51cd4
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@6fa51cd4' to type 'Boolean[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Boolean[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Byte;@710c2b53
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Byte[]' value '[Ljava.lang.Byte;@710c2b53' to type 'Byte[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Byte[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Character;@14028087
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Character[]' value '[Ljava.lang.Character;@14028087' to type 'Character[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Character[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Double;@1caa0244
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Double[]' value '[Ljava.lang.Double;@1caa0244' to type 'Double[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Double[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Float;@7ce69770
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Float[]' value '[Ljava.lang.Float;@7ce69770' to type 'Float[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Float[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Integer;@5b247367
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Integer[]' value '[Ljava.lang.Integer;@5b247367' to type 'Integer[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Integer[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Long;@6e9a5ed8
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Long[]' value '[Ljava.lang.Long;@6e9a5ed8' to type 'Long[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Long[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Short;@6c284af
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Short[]' value '[Ljava.lang.Short;@6c284af' to type 'Short[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Short[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.String;@6440112d
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'String[]' value '[Ljava.lang.String;@6440112d' to type 'String[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a String[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Class;@31ea9581
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Class[]' value '[Ljava.lang.Class;@31ea9581' to type 'Class[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Class[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.util.Date;@231f98ef
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Date[]' value '[Ljava.util.Date;@231f98ef' to type 'Date[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Date[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.util.Calendar;@183ec003
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Calendar[]' value '[Ljava.util.Calendar;@183ec003' to type 'Calendar[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Calendar[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.io.File;@221a3fa4
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.io.File[]' value '[Ljava.io.File;@221a3fa4' to type 'java.io.File[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.io.File[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Date;@2b40ff9c
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@2b40ff9c' to type 'java.sql.Date[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Date[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Time;@4d1c005e
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@4d1c005e' to type 'java.sql.Time[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Time[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Timestamp;@24569dba
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@24569dba' to type 'java.sql.Timestamp[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Timestamp[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.net.URL;@70ed52de
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.net.URL[]' value '[Ljava.net.URL;@70ed52de' to type 'java.net.URL[]'
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.net.URL[]
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.BeanUtils - Cloning bean: com.baosight.iplat4j.core.ei.EiBlockMeta
+2021-01-11 15:19:08 DEBUG [main] o.a.c.b.BeanUtils - Cloning bean: com.baosight.iplat4j.core.ei.EiBlockMeta
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - start
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - meta=com.baosight.iplat4j.core.ei.EiColumn@644baf4a[name=form_type,type=C,descName=类型,regex=<null>,formatter=<null>,editor=text,minLength=0,maxLength=0,fieldLength=0,scaleLength=0,primaryKey=false,width=0,height=0,align=left,displayType=text,dateFormat=yyyy-mm-dd,validateType=text,validateErrorPrompt=<null>,defaultValue=,nullable=true,visible=true,readonly=false,labelProperty=<null>,valueProperty=<null>,sourceName=<null>,blockName=<null>,attr=<null>]
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - end
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - start
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - meta=com.baosight.iplat4j.core.ei.EiColumn@2a265ea9[name=form_type_desc,type=C,descName=页面类型描述,regex=<null>,formatter=<null>,editor=text,minLength=0,maxLength=0,fieldLength=0,scaleLength=0,primaryKey=false,width=0,height=0,align=left,displayType=text,dateFormat=yyyy-mm-dd,validateType=text,validateErrorPrompt=<null>,defaultValue=,nullable=true,visible=true,readonly=false,labelProperty=<null>,valueProperty=<null>,sourceName=<null>,blockName=<null>,attr=<null>]
+2021-01-11 15:51:23 DEBUG [main] c.b.i.c.e.EiBlockMeta - addMeta(EiColumn) - end
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter - Setting default value: false
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter -     No conversion required, value is already a Boolean
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter -     Converted to Byte value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter - Setting default value:  
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter -     No conversion required, value is already a Character
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter -     Converted to Double value '0.0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter -     Converted to Float value '0.0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter -     No conversion required, value is already a Integer
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter -     Converted to Long value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter -     Converted to Short value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigDecimalConverter - Setting default value: 0.0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigDecimalConverter - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigDecimalConverter -     No conversion required, value is already a BigDecimal
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigIntegerConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigIntegerConverter - Converting 'BigInteger' value '0' to type 'BigInteger'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BigIntegerConverter -     No conversion required, value is already a BigInteger
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter - Setting default value: false
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.BooleanConverter -     No conversion required, value is already a Boolean
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter - Converting 'Integer' value '0' to type 'Byte'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ByteConverter -     Converted to Byte value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter - Setting default value:  
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter - Converting 'Character' value ' ' to type 'Character'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.CharacterConverter -     No conversion required, value is already a Character
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter - Converting 'Integer' value '0' to type 'Double'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.DoubleConverter -     Converted to Double value '0.0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter - Converting 'Integer' value '0' to type 'Float'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.FloatConverter -     Converted to Float value '0.0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter - Converting 'Integer' value '0' to type 'Integer'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.IntegerConverter -     No conversion required, value is already a Integer
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter - Converting 'Integer' value '0' to type 'Long'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.LongConverter -     Converted to Long value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter - Setting default value: 0
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter - Converting 'Integer' value '0' to type 'Short'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ShortConverter -     Converted to Short value '0'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.StringConverter - Setting default value: 
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.StringConverter - Converting 'String' value '' to type 'String'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Z@413d1baf
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'boolean[]' value '[Z@413d1baf' to type 'boolean[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a boolean[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [B@16eb3ea3
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'byte[]' value '[B@16eb3ea3' to type 'byte[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a byte[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [C@273444fe
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'char[]' value '[C@273444fe' to type 'char[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a char[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [D@33bc72d1
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'double[]' value '[D@33bc72d1' to type 'double[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a double[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [F@1a75e76a
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'float[]' value '[F@1a75e76a' to type 'float[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a float[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [I@5524cca1
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'int[]' value '[I@5524cca1' to type 'int[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a int[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [J@5032714f
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'long[]' value '[J@5032714f' to type 'long[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a long[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [S@48bb62
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'short[]' value '[S@48bb62' to type 'short[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a short[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.math.BigDecimal;@353352b6
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@353352b6' to type 'BigDecimal[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a BigDecimal[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.math.BigInteger;@57a78e3
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@57a78e3' to type 'BigInteger[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a BigInteger[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Boolean;@6fa51cd4
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@6fa51cd4' to type 'Boolean[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Boolean[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Byte;@710c2b53
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Byte[]' value '[Ljava.lang.Byte;@710c2b53' to type 'Byte[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Byte[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Character;@14028087
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Character[]' value '[Ljava.lang.Character;@14028087' to type 'Character[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Character[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Double;@1caa0244
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Double[]' value '[Ljava.lang.Double;@1caa0244' to type 'Double[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Double[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Float;@7ce69770
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Float[]' value '[Ljava.lang.Float;@7ce69770' to type 'Float[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Float[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Integer;@5b247367
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Integer[]' value '[Ljava.lang.Integer;@5b247367' to type 'Integer[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Integer[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Long;@6e9a5ed8
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Long[]' value '[Ljava.lang.Long;@6e9a5ed8' to type 'Long[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Long[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Short;@6c284af
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Short[]' value '[Ljava.lang.Short;@6c284af' to type 'Short[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Short[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.String;@6440112d
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'String[]' value '[Ljava.lang.String;@6440112d' to type 'String[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a String[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.lang.Class;@31ea9581
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Class[]' value '[Ljava.lang.Class;@31ea9581' to type 'Class[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Class[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.util.Date;@231f98ef
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Date[]' value '[Ljava.util.Date;@231f98ef' to type 'Date[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Date[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.util.Calendar;@183ec003
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'Calendar[]' value '[Ljava.util.Calendar;@183ec003' to type 'Calendar[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a Calendar[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.io.File;@221a3fa4
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.io.File[]' value '[Ljava.io.File;@221a3fa4' to type 'java.io.File[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.io.File[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Date;@2b40ff9c
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@2b40ff9c' to type 'java.sql.Date[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Date[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Time;@4d1c005e
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@4d1c005e' to type 'java.sql.Time[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Time[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.sql.Timestamp;@24569dba
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@24569dba' to type 'java.sql.Timestamp[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.sql.Timestamp[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Setting default value: [Ljava.net.URL;@70ed52de
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter - Converting 'java.net.URL[]' value '[Ljava.net.URL;@70ed52de' to type 'java.net.URL[]'
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.c.ArrayConverter -     No conversion required, value is already a java.net.URL[]
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.BeanUtils - Cloning bean: com.baosight.iplat4j.core.ei.EiBlockMeta
+2021-01-11 15:51:23 DEBUG [main] o.a.c.b.BeanUtils - Cloning bean: com.baosight.iplat4j.core.ei.EiBlockMeta

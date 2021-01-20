@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="taabb02">
+    <select id="query" parameterClass="java.util.HashMap" resultClass="com.baosight.iplatdemo.common.aa.domain.Taabb02">
+        SELECT
+        ENAME   as "ename",  <!-- 英文名称 -->
+        CNAME   as "cname",  <!-- 中文名称 -->
+        PARENT_ENAME    as "parentEname",  <!-- 父节点名称 -->
+        TYPE    as "type",  <!-- 类别 -->
+        LEAF    as "leaf",  <!-- 是否有叶子节点 -->
+        SORT    as "sort",  <!-- 排序字段 -->
+        ICON    as "icon" <!-- 图片地址 -->
+        FROM iplat.Taabb02 WHERE 1=1
+        <isNotEmpty prepend=" AND " property="ename">
+            ENAME = #ename#
+        </isNotEmpty>
+        <isNotEmpty prepend=" AND " property="parentEname">
+            PARENT_ENAME = #parentEname#
+        </isNotEmpty>
+        <dynamic prepend="ORDER BY">
+            <isNotEmpty property="orderBy">
+                $orderBy$
+            </isNotEmpty>
+            <isEmpty property="orderBy">
+                ENAME asc
+            </isEmpty>
+        </dynamic>
+    </select>
+
+    <select id="count" resultClass="int">
+        SELECT COUNT(*) FROM iplat.Taabb02 WHERE 1=1
+        <isNotEmpty prepend=" AND " property="ename">
+            ENAME = #ename#
+        </isNotEmpty>
+        <isNotEmpty prepend=" AND " property="parentEname">
+            PARENT_ENAME = #parentEname#
+        </isNotEmpty>
+    </select>
+
+    <insert id="insert">
+        INSERT INTO iplat.Taabb02 (ENAME,  <!-- 英文名称 -->
+        CNAME,  <!-- 中文名称 -->
+        PARENT_ENAME,  <!-- 父节点名称 -->
+        TYPE,  <!-- 类别 -->
+        LEAF,  <!-- 是否有叶子节点 -->
+        SORT,  <!-- 排序字段 -->
+        ICON  <!-- 图片地址 -->
+        )
+        VALUES (#ename:VARCHAR#, #cname:VARCHAR#, #parentEname:VARCHAR#, #type:VARCHAR#, #leaf:VARCHAR#, #sort:VARCHAR#, #icon:VARCHAR#)
+    </insert>
+
+
+
+    <delete id="delete">
+        DELETE FROM iplat.Taabb02 WHERE
+        ENAME = #ename#
+    </delete>
+
+
+
+
+    <update id="update">
+        UPDATE iplat.Taabb02
+        SET
+        CNAME   = #cname#,   <!-- 中文名称 -->
+        PARENT_ENAME    = #parentEname#,   <!-- 父节点名称 -->
+        TYPE    = #type#,   <!-- 类别 -->
+        LEAF    = #leaf#,   <!-- 是否有叶子节点 -->
+        SORT    = #sort#,   <!-- 排序字段 -->
+        ICON    = #icon#  <!-- 图片地址 -->
+        WHERE
+        ENAME = #ename#
+
+    </update>
+
+</sqlMap>

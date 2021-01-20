@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+  
+<sqlMap namespace="EE10">
+
+	<select id="count" resultClass="int">
+		SELECT count(*) FROM ${platSchema}.tee10 where 1=1
+		<isNotEmpty prepend=" AND " property="product_id">
+			product_id like ('%$product_id$%')
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="company_name">
+			company_name = #company_name#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="made_country">
+			made_country = #made_country#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="price_low">
+			price > #price_low#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="price_high">
+			price &lt; #price_high#
+		</isNotEmpty>
+ 	</select>
+	
+	<select id="query" resultClass="java.util.HashMap">
+		SELECT      
+	  product_id    as "product_id",
+      company_name 	as "company_name",
+      made_country 	as "made_country",
+      sale_date 	as "sale_date",
+      price 		as "price",
+      company_page  as "company_page",
+      search      	as "search",
+      validate_0    as "validate_0",
+      validate_1    as "validate_1",
+      validate_2    as "validate_2",
+      validate_3    as "validate_3",
+      validate_4    as "validate_4",
+      validate_5    as "validate_5",
+      validate_6    as "validate_6",
+      validate_7    as "validate_7",
+      validate_8    as "validate_8",
+      validate_9    as "validate_9"
+		FROM ${platSchema}.tee10 where 1=1
+		<isNotEmpty prepend=" AND " property="product_id">
+			product_id like ('%$product_id$%')
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="company_name">
+			company_name = #company_name#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="made_country">
+			made_country = #made_country#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="price_low">
+			price > #price_low#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="price_high">
+			price &lt; #price_high#
+		</isNotEmpty>
+		<dynamic prepend="ORDER BY">
+                 <isNotEmpty property="orderBy">
+    		  $orderBy$
+   		 </isNotEmpty>
+  		</dynamic>
+
+	</select> 
+	
+	<select id="load" resultClass="java.util.HashMap">
+		SELECT      
+	  product_id    as "product_id",
+      company_name 	as "company_name",
+      made_country 	as "made_country",
+      sale_date 	as "sale_date",
+      price 		as "price",
+      company_page  as "company_page",
+      search      	as "search",
+      validate_0    as "validate_0",
+      validate_1    as "validate_1",
+      validate_2    as "validate_2",
+      validate_3    as "validate_3",
+      validate_4    as "validate_4",
+      validate_5    as "validate_5",
+      validate_6    as "validate_6",
+      validate_7    as "validate_7",
+      validate_8    as "validate_8",
+      validate_9    as "validate_9"
+		FROM ${platSchema}.tee10 where product_id=#product_id# 
+	</select> 
+	
+	<insert id="insert">
+    INSERT INTO ${platSchema}.tee10 (
+      product_id,
+      company_name,
+      made_country,
+      sale_date,
+      price,
+      company_page,
+      search,
+      validate_0,
+      validate_1,
+      validate_2,
+      validate_3,
+      validate_4,
+      validate_5,
+      validate_6,
+      validate_7,
+      validate_8,
+      validate_9
+    ) VALUES (
+      #product_id#,
+      #company_name#,
+      #made_country#,
+      #sale_date#,
+      #price#,
+      #company_page#,
+      #search#,
+      #validate_0#,
+      #validate_1#,
+      #validate_2#,
+      #validate_3#,
+      #validate_4#,
+      #validate_5#,
+      #validate_6#,
+      #validate_7#,
+      #validate_8#,
+      #validate_9#
+    )
+  </insert>
+
+  <update id="update">
+    UPDATE ${platSchema}.tee10 SET
+      company_name  = #company_name#,
+      made_country 	= #made_country#,
+      sale_date		= #sale_date#,
+      price     	= #price#,
+      company_page 	= #company_page#,
+      search    	= #search#,
+      validate_0	= #validate_0#,
+      validate_1	= #validate_1#,
+      validate_2	= #validate_2#,
+      validate_3	= #validate_3#,
+      validate_4	= #validate_4#,
+      validate_5	= #validate_5#,
+      validate_6	= #validate_6#,
+      validate_7	= #validate_7#,
+      validate_8	= #validate_8#,
+      validate_9	= #validate_9#
+    WHERE product_id = #product_id#
+  </update>
+
+  <delete id="delete">
+    DELETE FROM ${platSchema}.tee10
+    WHERE product_id = #product_id#
+  </delete>
+	
+</sqlMap>

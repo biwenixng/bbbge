@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../:\iplat\iPlat4j6-6.2.1231-SNAPSHOT-web\.idea/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/

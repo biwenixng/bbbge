@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap  PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">	<!--      table information
+		Generate time : 2021-01-05 9:53:23
+   		Version :  6.0.731.201809200158
+		tableName :iplat.taabb01 
+		 STUDENT_ID  VARCHAR   NOT NULL   primarykey, 
+		 STUDENT_NAME  VARCHAR, 
+		 STUDENT_TIME  VARCHAR
+	-->
+<sqlMap namespace="taabb01">
+
+	<select id="query" parameterClass="java.util.HashMap" 
+			resultClass="com.baosight.iplatdemo.aa.bb.sql.Taabb01">
+		SELECT
+				STUDENT_ID	as "studentId",  
+				STUDENT_NAME	as "studentName",  
+				STUDENT_TIME	as "studentTime" 
+		FROM iplat.taabb01 WHERE 1=1
+		<isNotEmpty prepend=" AND " property="studentId">
+			STUDENT_ID = #studentId#
+		</isNotEmpty>
+			<dynamic prepend="ORDER BY">
+         <isNotEmpty property="orderBy">
+    		  $orderBy$
+   		 </isNotEmpty>
+   		<isEmpty property="orderBy">
+    		  STUDENT_ID asc
+		</isEmpty>
+  		</dynamic>
+			
+	</select>
+
+	<select id="count" resultClass="int">
+		SELECT COUNT(*) FROM iplat.taabb01 WHERE 1=1
+		<isNotEmpty prepend=" AND " property="studentId">
+			STUDENT_ID = #studentId#
+		</isNotEmpty>
+	</select>
+	
+	<!--  
+		<isNotEmpty prepend=" AND " property="studentId">
+			STUDENT_ID = #studentId#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="studentName">
+			STUDENT_NAME = #studentName#
+		</isNotEmpty>
+		<isNotEmpty prepend=" AND " property="studentTime">
+			STUDENT_TIME = #studentTime#
+		</isNotEmpty>
+	-->
+
+	<insert id="insert">
+		INSERT INTO iplat.taabb01 (STUDENT_ID,
+										STUDENT_NAME,
+										STUDENT_TIME
+										)		 
+	    VALUES (#studentId#, #studentName#, #studentTime#) 
+	</insert>
+  
+	<delete id="delete">
+		DELETE FROM iplat.taabb01 WHERE 
+			STUDENT_ID = #studentId#
+	</delete>
+
+	<update id="update">
+		UPDATE iplat.taabb01 
+		SET 
+					STUDENT_NAME	= #studentName#,   
+					STUDENT_TIME	= #studentTime#  
+			WHERE 	
+			STUDENT_ID = #studentId#
+	</update>
+  
+</sqlMap>

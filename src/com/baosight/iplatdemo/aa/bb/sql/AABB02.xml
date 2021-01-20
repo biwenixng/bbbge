@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="AABB02">
+    <select id="queryTree" resultClass="java.util.HashMap">
+        SELECT
+        ENAME   as "label",  <!-- 英文名称 -->
+        CNAME   as "text",  <!-- 中文名称 -->
+        PARENT_ENAME    as "pId",
+        TYPE    as "type",  <!-- 类别 -->
+        LEAF    as "leaf",  <!-- 是否有叶子节点 -->
+        SORT    as "sort",  <!-- 排序字段 -->
+        ICON    as "icon" <!-- 图片地址 -->
+        FROM iplat.Taabb02 WHERE 1=1
+        <isNotEmpty prepend=" AND " property="parentEname">
+            PARENT_ENAME = #parentEname#
+        </isNotEmpty>
+        ORDER BY ENAME, SORT ASC
+    </select>
+</sqlMap>
