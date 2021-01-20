@@ -18,6 +18,7 @@ public class ServiceAABB02 extends ServiceBase {
         EiInfo outInfo = new EiInfo();
         outInfo.addBlock(block);
         outInfo.setMsg("欢迎来到树表联动示例");
+        System.out.println("你好");
         return outInfo;
     }
 
